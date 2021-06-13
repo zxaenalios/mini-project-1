@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="483454834998-jfm5lr3grk5sdvpcje2govit5ui1pf5t.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="top">
+                <div class="logo">
+                    <img src="image/rectangle-logo.png" alt="Instagram" style="width: 175px;">
+                </div>
+                <div class="or">
+                    <div class="line"></div>
+                        <p>LOGIN</p>
+                    <div class="line"></div>    
+                </div>
+                <div class="dif">
+                    <div class="gs">
+                        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+                    </div>
+                    <div class="or logged onlylogged">
+                        <div class="line"></div>
+                            <p><a href="#" onClick="gotoDashboard();">Dashboard</a></p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="or logged onlylogged">
+                        <div class="line"></div>
+                            <p><a href="#" onClick="onSignOut();">Sign Out</a></p>
+                        <div class="line"></div>
+                    </div>     
+                </div>
+            </div>
+            <div>&nbsp;</div>
+            <div class="apps">
+                <p>Ayo belajar lagi dan buat aplikasi mobilenya!<br/>Sementara tidak akan ditemukan pada:</p>
+                <div class="icons">
+                    <a href="#"><img src="image/appstore.png" alt="appstore"></a>
+                    <a href="#"><img src="image/googleplay.png" alt="googleplay"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="links">
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SUPPORT</a></li>
+                    <li><a href="#">PRESS</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">JOBS</a></li>
+                    <li><a href="#">PRIVACY</a></li>
+                    <li><a href="#">TERMS</a></li>
+                    <li><a href="#">DIRECTORY</a></li>
+                    <li><a href="#">PROFILES</a></li>
+                    <li><a href="#">HASTAGS</a></li>
+                    <li><a href="#">LANGUAGE</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                &copy; 2020 BUKAN INSTAGRAM
+            </div>
+
+        </div>
+    </div>
+    <script src="/script/login.js"></script>
+</body>
+</html>
